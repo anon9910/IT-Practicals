@@ -1,0 +1,24 @@
+body {
+    background-color: #9ED2C6;
+}
+
+p {
+    text-align: center;
+    font-size: 32px;
+}
+
+.container {
+    background-color: #F7ECDE;
+    width: 650px;
+    height: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.btn {
+    width: 160px;
+    height: 160px;
+    margin: 20px;
+    font-size: 1.5rem;
+}

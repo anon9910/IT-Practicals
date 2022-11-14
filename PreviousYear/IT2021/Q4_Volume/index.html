@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volume</title>
+</head>
+
+<body style="font-size: 2rem;">
+    <label for="length">Length: </label>
+    <input type="text" name="length" id="length">
+    <br>
+    <label for="breadth">Breadth: </label>
+    <input type="text" name="breadth" id="breadth">
+    <br>
+    <label for="height">Height: </label>
+    <input type="text" name="height" id="height">
+    <br>
+    <button class="btn">Calculate</button>
+    <br>
+    <p>Volume is</p>
+    <div id="volume"></div>
+
+    <script>
+        document.querySelector('.btn').addEventListener('click', function () {
+            let length = parseFloat(document.querySelector('#length').value);
+            let breadth = parseFloat(document.querySelector('#breadth').value);
+            let height = parseFloat(document.querySelector('#height').value);
+            let divEle = document.querySelector('#volume');
+            getVolume = function () {
+                return length * breadth * height;
+            }
+            divEle.innerHTML = function () {
+                return getVolume();
+            }();
+        });
+    </script>
+</body>
+
+</html>

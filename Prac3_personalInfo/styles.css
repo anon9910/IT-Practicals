@@ -1,0 +1,23 @@
+body {
+    background-color: #9ED2C6;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', 'sans-serif';
+}
+
+.container {
+    background-color: #F7ECDE;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 5px 10px 20px #7B7A72;
+}
+
+.tcell {
+    padding: 20px;
+}

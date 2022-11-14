@@ -1,0 +1,25 @@
+{
+    "pets": [
+        {
+            "name": "Daisy",
+            "age": 4,
+            "weight": 9,
+            "type": "pug",
+            "liking": "pedigree"
+        },
+        {
+            "name": "Tommy",
+            "age": 5,
+            "weight": 10,
+            "type": "Golden retriever",
+            "liking": "playing"
+        },
+        {
+            "name": "Buddy",
+            "age": 3,
+            "weight": 7,
+            "type": "Bull dog",
+            "liking": "sleeping"
+        }
+    ]
+}
